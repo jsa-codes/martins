@@ -112,7 +112,9 @@
 .locationImages {
     height: 15rem;
     width: 15rem;
-    box-shadow: 2px 2px 2px 2px rgb(40, 40, 40);
+    /* box-shadow: 2px 2px 2px 2px rgb(40, 40, 40); */
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2),
+        0 20px 40px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -143,7 +145,8 @@
 .fish__images {
     height: 15rem;
     width: 15rem;
-    box-shadow: 2px 2px 2px 2px rgb(40, 40, 40);
+    box-shadow:0 8px 8px 0 rgba(0, 0, 0, 0.2),
+        0 20px 40px 0 rgba(0, 0, 0, 0.19);
     flex-grow: 2;
 }
 
@@ -163,7 +166,8 @@
     flex-grow: 1;
     background-color: #e6fafb;
     border-radius: 4px;
-    box-shadow: 0px 0px 2px 2px rgb(214, 222, 230);
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2),
+        0 20px 40px 0 rgba(0, 0, 0, 0.19);
 }
 
 .asides h3, h4 {
