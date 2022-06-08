@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+} */
+
+
+/************** HEADER SECTION **************/
+.headerSection {
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    /* border: 2px solid goldenrod; */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+/**** HEADER IMAGE ****/
+.header__img {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: 2px solid black;
+    border-right: 4px solid black;
+    box-shadow: 6px 4px 8px darkgray;
+    
+}
+
+
+/**** HEADING ****/
+.header__heading {
+    font-family: 'The Nautigal', cursive;
+    font-size: 4rem;
+    padding: 0 1rem;
+    margin: 0 1rem;
+}
+
+/**** SOCIALS  ****/
+.socials {
+    margin-right: 2rem;
+    margin-left: 1rem;
+
+}
+
+.socials__list {
+    list-style-type: none;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+.socials__list--item {
+    padding: 0.25rem;
+    font-size: 1rem;
+    
+}
+
+.socials__list--item a {
+    color:rgb(10, 92, 96);
+    text-decoration: none;
+}
+
+/*************** MAIN FLEX CONTAINER ***************/
+.main--flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: flex-start;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+
+/************** HARVEST LOCATIONS (LEFT SIDE) **************/
+.harvestLocations {
+    /* border: 2px #ff6347 solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    align-items:center;
+    padding: 1rem;
+    margin-top: 2rem;
+    flex-grow: 1;
+    text-align: center;
+    /* margin-left: 1rem; */
+    /* height: 100%vh; */
+    
+}
+
+.locations__headings {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+
+}
+
+.locationImages {
+    height: 15rem;
+    width: 15rem;
+    box-shadow: 2px 2px 2px 2px rgb(40, 40, 40);
+}
+
+
+/************** FISH (CENTER) **************/
+
+
+.fish {
+    /* border: 2px skyblue solid; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items:center;
+    padding: 1rem;
+    margin-top: 2rem;
+    flex-grow:1;
+    
+
+}
+
+.fish__item {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    flex-grow: 2;
+}
+
+.fish__images {
+    height: 15rem;
+    width: 15rem;
+    box-shadow: 2px 2px 2px 2px rgb(40, 40, 40);
+    flex-grow: 2;
+}
+
+
+/******** ASIDES ********/
+.asides {
+    max-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    align-items: center;
+    margin-top: 7.5rem;
+    /* margin-right: 1rem; */
+    padding: 1rem;
+    flex-grow: 1;
+    background-color: #e6fafb;
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px 2px rgb(214, 222, 230);
+}
+
+.asides h3, h4 {
+    text-align: center;
+    padding: .5rem;  
+    margin-bottom: .7rem;
+}
+
+.asides p {
+    padding-top: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-bottom: 1rem;
+}
+
+
+
+/******** FOOTER ********/
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 1rem;
+    background-color: #cef9fb;
+    
+}
+
+.footer p {
+
+}
+
+.footer img {
+    height: 10%vh
+}
+
+
+
+
+/*************** MEDIA QUERIES ***************/
+@media (max-width: 760px) {
+ h1 {
+     font-size: 6rem;
+ }
+    
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+}
