@@ -1,13 +1,12 @@
 const database = {
   fish: [
     {
-      species: 'Banggai Cardinalfish',
+      image: 'https://thumbs.dreamstime.com/t/discus-fish-2866088.jpg',
       name: 'Bert',
+      species: 'Banggai Cardinalfish',
+      length: 3,
+      location: 'South Pacific',
       food: 'crustaceans',
-      size: 3,
-      weight: '2.4lbs',
-      harvestDate: '6-8-2022',
-      harvestLocation: 'South Pacific',
     },
   ],
 };
