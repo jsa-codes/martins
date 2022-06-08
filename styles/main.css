@@ -119,7 +119,7 @@
 /************** FISH (CENTER) **************/
 
 
-.fish {
+.fishList {
     /* border: 2px skyblue solid; */
     display: flex;
     flex-wrap: wrap;
