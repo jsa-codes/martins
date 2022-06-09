@@ -1,12 +1,48 @@
 const database = {
   fish: [
     {
-      image: 'https://thumbs.dreamstime.com/t/discus-fish-2866088.jpg',
+      image:
+        'https://cdn.pixabay.com/photo/2017/10/30/05/58/discus-fish-2901528__180.jpg',
+      name: 'Dorothy',
+      species: 'Discus',
+      length: 2,
+      location: 'Amazon',
+      food: 'Dominos Pizza',
+    },
+    {
+      image:
+        'https://i.pinimg.com/originals/d0/40/3e/d0403e1f1aecea617b3413a96a04af98.jpg',
       name: 'Bert',
-      species: 'Banggai Cardinalfish',
-      length: 3,
-      location: 'South Pacific',
-      food: 'crustaceans',
+      species: 'Wolf Cichlid',
+      length: 4,
+      location: 'Costa Rica Moin River',
+      food: 'Wild Salmon',
+    },
+    {
+      image:
+        'https://as2.ftcdn.net/jpg/02/54/77/75/220_F_254777516_LPEDc2P0TsWJHhs9Q7JHccXwJEtIPzNb.jpg',
+      name: 'Bert',
+      species: 'Red Head Cichlid',
+      length: 5,
+      location: 'Usumacinta River',
+      food: 'Grapefruit',
+    },
+    {
+      image: 'https://live.staticflickr.com/65535/49607159957_74750a1e40_n.jpg',
+      name: 'Bert',
+      species: 'Scorpion Fish',
+      length: 6,
+      location: 'Red Sea',
+      food: 'Sriracha',
+    },
+    {
+      image:
+        'https://p0.piqsels.com/preview/853/1002/512/balloonfish-corals-fish-nature-thumbnail.jpg',
+      name: 'Bert',
+      species: 'Dwarf Pufferfish',
+      length: 1,
+      location: 'Western Ghats',
+      food: 'Croutons',
     },
   ],
 };

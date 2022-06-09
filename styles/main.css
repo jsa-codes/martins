@@ -136,13 +136,21 @@
 
 }
 
-.fish__item {
+.fish__card {
+    height: 15rem;
+    width: 15rem;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2),
+        0 20px 40px 0 rgba(0, 0, 0, 0.19);
+    flex-grow: 2;
+}
+
+.fish__name {
     margin-top: 1rem;
     margin-bottom: .5rem;
     flex-grow: 2;
 }
 
-.fish__images {
+.fish__image {
     height: 15rem;
     width: 15rem;
     box-shadow:0 8px 8px 0 rgba(0, 0, 0, 0.2),
