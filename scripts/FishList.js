@@ -12,7 +12,7 @@ export const FishList = () => {
   // Iterate the array of fish objects - building the html from the key value pairs in the array of fish objects
   for (const fish of fishes) {
     htmlString += `<section class="fish__card">
-            <div><img  class="fish__image image--card" src="${fish.image}" /></div>
+            <div><img class="fish__image image--card" src="${fish.image}" /></div>
             <div class="fish__name">${fish.name}</div>
             <div class="fish__species">${fish.species}</div>
             <div class="fish__length">${fish.length}</div>
