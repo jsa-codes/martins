@@ -20,7 +20,7 @@
     <title>Martin's Aquarium v.2</title>
   </head>
   <body>
-    <!-- HEADER SECTION -->
+    <!---------- HEADER SECTION ---------->
     <header class="headerSection">
       <!-- LOGO -->
       <!-- <div class="header__logo"> -->
@@ -30,13 +30,6 @@
         src="https://thumbs.dreamstime.com/t/discus-fish-2866088.jpg"
         alt=""
       />
-      <!-- Alternate Image -->
-      <!-- <img
-          class="header__img"
-          src="https://www.factzoo.com/sites/all/img/fish/large-parrotfish.jpg"
-          alt="colorful fish" 
-        /> -->
-      <!-- </div> -->
 
       <!-- Heading -->
       <div class="header__heading">
@@ -58,6 +51,8 @@
       </div>
     </header>
     <main>
+      <!-- LEFT SIDE OF MAIN CONTAINER-->
+      <!-- main--flexContainer = Display: flex, row, wrap, space-evenly, center -->
       <article class="main--flexContainer">
         <!-- Harvesting Locations (LEFT SIDE)-->
         <section class="harvestLocations">
@@ -98,12 +93,8 @@
           </div>
         </section>
         <!-- Listing of Martin's Fish (CENTER) -->
-        <section class="centerSection">
-          <div class="centerHeader">
-            <h2 id="centerContentHeading">Martin's Fish</h2>
-          </div>
-          <section></section>
-        </section>
+        <!-- fishList = Display: flex, wrap, column, center, space-around, center -->
+        <article class="fishList"></article>
 
         <!-- <div class="fish__item">Discus</div>
           <img
@@ -158,7 +149,7 @@
                 >Read more</a
               >
             </p>
-            <h4>Get the Temperature Right</h4>
+            <h3>Get the Temperature Right</h3>
             <p>
               The temperature of your tank is vital. Saltwater creatures thrive
               in a specific temperature range. Temperatures which fall outside
