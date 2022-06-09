@@ -97,6 +97,8 @@
     align-items:center;
     padding: 1rem;
     margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     flex-grow: 1;
     text-align: center;
     border-radius: .25rem;
@@ -129,6 +131,8 @@
     flex-wrap: wrap;
     align-content: center;
     margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     padding: 1rem;
 }
 
@@ -225,9 +229,9 @@
     
 }
 
-.footer p {
+/* .footer p {
 
-}
+} */
 
 .footer img {
     height: 10%vh

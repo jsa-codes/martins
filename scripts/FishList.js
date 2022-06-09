@@ -1,5 +1,5 @@
 // Importing a copy (a result of the map method) of the array of fish objects
-import { getFish } from './database';
+import { getFish } from './database.js';
 
 // Create function to export html representation of fish
 export const FishList = () => {
