@@ -8,7 +8,7 @@ const database = {
       species: 'Discus',
       length: 2,
       location: 'Amazon',
-      food: 'Dominos Pizza',
+      diet: 'Dominos Pizza',
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ const database = {
       species: 'Wolf Cichlid',
       length: 4,
       location: 'Costa Rica Moin River',
-      food: 'Wild Salmon',
+      diet: 'Wild Salmon',
     },
     {
       id: 3,
@@ -28,7 +28,7 @@ const database = {
       species: 'Red Head Cichlid',
       length: 5,
       location: 'Usumacinta River',
-      food: 'Grapefruit',
+      diet: 'Grapefruit',
     },
     {
       id: 4,
@@ -37,7 +37,7 @@ const database = {
       species: 'Scorpion Fish',
       length: 6,
       location: 'Red Sea',
-      food: 'Sriracha',
+      diet: 'Sriracha',
     },
     {
       id: 5,
@@ -47,7 +47,7 @@ const database = {
       species: 'Dwarf Pufferfish',
       length: 1,
       location: 'Western Ghats',
-      food: 'Croutons',
+      diet: 'Croutons',
     },
   ],
 };
