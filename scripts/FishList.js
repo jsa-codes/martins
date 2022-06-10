@@ -8,7 +8,7 @@ export const FishList = () => {
   const fishes = getFish();
 
   // Create HTML representation of each fish
-  const htmlString = `<article class = "fishList">`;
+  let htmlString = `<article class = "fishList">`;
   // Iterate the array of fish objects - building the html from the key value pairs in the array of fish objects
   for (const fish of fishes) {
     htmlString += `<section class="fishCard">
