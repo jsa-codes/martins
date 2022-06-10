@@ -80,7 +80,7 @@
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    /* align-items: center; */
+    align-items: flex-start;
     margin-right: 2rem;
     margin-left: 2rem;
 }
@@ -177,6 +177,8 @@
     text-align: center;
     color: black;
     background-color: #cef9fb;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+            
 }
 
 
